@@ -7,10 +7,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title>Homepage</title>
+    <title>Terza pagina</title>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Home</a>
@@ -30,11 +29,7 @@
         </div>
     </nav>
 
-
-    <h1 class="my-5">Hello {{ $name }}!</h1>
-
-    <div class="my-5">
-        <a href="/second">Seconda pagina</a>
-    </div>
+    <h1 class="my-5">terza pagina blade</h1>
+    <p class="my-5">Torna alla <a href="/">Home</a></p>
 </body>
 </html>

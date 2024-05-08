@@ -17,3 +17,11 @@ Route::get('/', function () {
     $name = 'Laravel';
     return view('home', compact('name'));
 });
+Route::get('/second', function () {
+
+    return view('second');
+});
+Route::get('/third', function () {
+
+    return view('third');
+});
