@@ -19,10 +19,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" href="/second">Seconda pagina</a>
+                <a class="nav-link" href="{{ route('second') }}">Seconda pagina</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="third">Terza pagina</a>
+                <a class="nav-link" href="{{ route('third') }}">Terza pagina</a>
                 </li>
             </ul>
             </div>
